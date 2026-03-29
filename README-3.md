@@ -4,7 +4,7 @@ I got into an argument with my friend about whether democracies are actually bet
 
 Pulled together info on 44 countries, classified each one by government type, and ran the numbers on GDP, unemployment, tax rates and tax revenue. Some of it confirmed what I expected. A lot of it didn't.
 
----
+
 
 ## What I Was Trying to Find Out
 
@@ -13,7 +13,7 @@ Pulled together info on 44 countries, classified each one by government type, an
 - Which system taxes businesses the most?
 - Is unemployment worse under certain governments?
 
----
+
 
 ## Dataset Used
 
@@ -28,7 +28,7 @@ Government types I used:
 - Communism (4 countries) — China, Vietnam, Cuba, Laos
 - Dictatorship (6 countries) — North Korea, Zimbabwe, Myanmar etc.
 
----
+
 
 ## Key Findings
 
@@ -58,7 +58,7 @@ Ran an ANOVA test. F-statistic came out to 1.90, p-value 0.1446. That's above th
 
 Honestly this is a data limitation more than anything. 44 countries is a small sample, and when you have China as an outlier in the communist group it adds a ton of variance. A larger dataset with more communist/dictatorship examples would probably tell a cleaner story.
 
----
+
 
 ## What the Data Can't Tell You
 
@@ -66,7 +66,7 @@ Government type is one variable. In reality, a country's business environment is
 
 So no, I don't think you can draw a straight line from "democracy = good for business" based on this data alone. The relationship is way more complicated than that.
 
----
+
 
 ## Tools Used
 
@@ -79,6 +79,5 @@ So no, I don't think you can draw a straight line from "democracy = good for bus
 - `GOV_Impacting_Businesses.ipynb` — full analysis notebook
 - `world-data-2023.csv` — main dataset
 
----
 
-Chetan Singh | B.Tech Computer Science (2022–2026)
+
